@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.product .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+#close i{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: xx-large;
+    color: #676767;
+}
+.cart-icon{
+    padding: 15px;
+    font-size: x-large;
+    display: flex;
+    justify-content: end;
+}
+.sidebar{
+    width: 320px;
+    background-color: black;
+    color: #ffffff;
+    z-index: 1;
+    position: fixed;
+    inset: 0 0 0 auto;
+    padding: 10px;
+}
+.sidebar ul li{
+    list-style: none;
+    padding: 5px;
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    position: fixed;
+    bottom: 0;
+}
+.footer button{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    background-color: blue;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid black;
+}
